@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div id="header">
+            <h1 id='title'>Survey</h1>
+            <p id="description">Tell Me About Yourself</p>
+        </div>
+        <form id="survey-form">
+            <div id="personal_details">
+                <label id="name-label">Name: </label>
+                <input type="text" id="name" required placeholder="Full Name">
+                <label id="email-label">Email: </label>
+                <input type="email" id="email" required placeholder="Email Address">
+                <label id="number-label">Age: </label>
+                <input type="number" id="number" min="0" max="50" placeholder="Enter Age" required>
+            </div>
+            <div id="favorite pet">
+                <label for="dropdown">Choose Your Favorite Pet:
+                    <label>
+                        <select id="dropdown">
+                            <option value="cat">Cat</option>
+                            <option value="dog">Dog</option>
+                            <option value="fish">Fish</option>
+                            <option value="gerbil">Gerbil</option>
+                            <option value="hamster">Hamster</option>
+                            <option value="lizard">Lizard</option>
+                            <option value="none" selected>--Please Select An Option</option>
+                        </select>
+            </div>
+            <div id="foods">
+                <fieldset class="favorite_food">
+                    <legend>Favorite Food</legend>
+                    <input type="radio" id="american" name="food" value="1">
+                    <label for="male">American</label>
+                    <input type="radio" id="chinese" name="food" value="2">
+                    <label for="chinese">Chinese</label>
+                    <input type="radio" id="italian" name="food" value="3">
+                    <label for="Italian">Italian</label>
+                    <input type="radio" id="mexican" name="food" value="4">
+                    <label for="mexican">Mexican</label>
+                </fieldset>
+            </div>
+            <div id="exercises">
+                <fieldset class="exercises">
+                    <legend>Favorite Exercise</legend>
+                    <input type="checkbox" name="exercise" value="running">
+                    <label for="running">Running</label>
+                    <input type="checkbox" name="exercise" value="swimming">
+                    <label for="swimming">Swimming</label>
+                    <input type="checkbox" name="exercise" value="weightlifting">
+                    <label for="weightlifting">Weight Lifting</label>
+                </fieldset>
+            </div>
+            <div id="textBox">
+                <textarea rows=40 cols=80>
+                </textarea>
+            </div> 
+                <button id="submit" type="submit" value="submit-true">Submit</button>
+        </form>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #667D93;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Lora', serif;
+
+}
+main {
+  display: flex; 
+  justify-content: center;
+  background-color: #fdfdfd;
+  width: 80%;
+  height: 90%;
+}
+header h1{
+  text-align: center;
+  font-size: 2em;
+  padding: 2% 0;
+}
+main p {
+  justify-content: center;
+}
+ #survey-form {
+  color: darkblue;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 10px 40px 10px; 
+  width: 92%;
+  height: 80%;
+}
+#header {
+  margin: 29px;
+  padding: 13px;
+}
+#personal_details {
+  flex-direction: column;
+  padding: 10px;
+}
+
+#personal_details input{
+  padding: 5px 10px 5px 10px;
+  margin: 0px 5px 10px 5px;
+}
+#exercises {
+  justify-content: center;
+}
+.favorite_food{
+  padding: 10px;
+  margin: 25px 5px 25px 5px;
+}
+.favorite_beverage{
+  padding: 0px 15px 15px 10px;
+  margin: 25px 5px 25px 5px;
+}
+.section_heading input {
+  color: black;
+}
+
+button {
+  height: 25px;
+  width: 60px;
+}
+
